@@ -1,0 +1,19 @@
+<div class="modal">
+  <form class="form" (ngSubmit)="createNewPost()">
+    <input
+      class="input"
+      name="title"
+      type="text"
+      [(ngModel)]="postTitle"
+      placeholder="Title"
+    />
+    <input
+      class="input"
+      type="text"
+      [(ngModel)]="postDesc"
+      placeholder="description"
+      name="description"
+    />
+    <button class="button" type="submit">New Post</button>
+  </form>
+</div>

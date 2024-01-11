@@ -1,0 +1,14 @@
+<div class="container">
+  <app-logo></app-logo>
+
+  <div class="btn-container">
+    <button (click)="toggleComponents()">New add Post</button>
+  </div>
+</div>
+
+<app-modalwindow
+  [posts]="posts"
+  class="modal-window"
+  *ngIf="showModal"
+></app-modalwindow>
+<app-posts [posts]="posts"></app-posts>

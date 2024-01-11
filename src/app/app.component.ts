@@ -3,8 +3,14 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'app3';
+  posts = [
+    { title: 'POST 1', description: 'decdasfasdwrqrwqew223' },
+    { title: 'POST 1', description: 'decdasfasdwrqrwqew223' },
+    { title: 'POST 1', description: 'decdasfasdwrqrwqew223' },
+    { title: 'POST 1', description: 'decdasfasdwrqrwqew223' },
+    { title: 'POST 1', description: 'decdasfasdwrqrwqew223' },
+  ];
 }
